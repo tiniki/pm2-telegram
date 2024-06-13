@@ -1,0 +1,53 @@
+{
+  "name": "pm2-telegram",
+  "version": "0.0.1",
+  "description": "A PM2 module to emit events to Telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiniki/pm2-telegram"
+  },
+  "keywords": [
+    "pm2",
+    "telegram"
+  ],
+  "author": "Tiniki",
+  "contributors": [
+    "Tiniki"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiniki/pm2-telegram/issues"
+  },
+  "homepage": "https://github.com/tiniki/pm2-telegram",
+  "dependencies": {
+    "fastq": "^1.17.1",
+    "pm2": "^5.4.0",
+    "pmx": "^1.6.7"
+  },
+  "config": {
+    "telegram_bot_token": null,
+    "telegram_chat_id": null,
+    "telegram_message_thread_id": null,
+    "log": false,
+    "error": true,
+    "kill": true,
+    "exception": true,
+    "restart": false,
+    "reload": false,
+    "delete": false,
+    "stop": false,
+    "restart overlimit": true,
+    "exit": false,
+    "start": false,
+    "online": false,
+    "queue_limit": 10,
+    "auto_event_only": true
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
